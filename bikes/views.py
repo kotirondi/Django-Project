@@ -179,7 +179,7 @@ def login_user(request):
         
         return redirect("home")
 
-    return render(request,"login.html")
+    return render(request,"index.html")
 def register(request):
     if request.method=="POST":
         username=request.POST.get("username")
