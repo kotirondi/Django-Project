@@ -25,7 +25,7 @@ urlpatterns = [
     path("hero/",hero,name="hero"),
     path("bajaj/",bajaj,name="bajaj"),
     path("honda/",honda,name="honda"),
-    path("",login_user,name="login"),
+    path("",login_user,name="index"),
 
     path("register/",register,name="register"),
     
